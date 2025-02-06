@@ -1,3 +1,4 @@
+/* General body styling */
 body {
     font-family: 'Arial, sans-serif';
     margin: 0;
@@ -78,17 +79,50 @@ a {
     color: #1c3faa;
 }
 
-/* Call to Action Section */
-#cta {
-    background-color: #ff9800;
+/* Sign-Up Section */
+#signup-section {
+    background-color: #1c3faa;
     color: white;
     padding: 60px 0;
     text-align: center;
 }
 
-#cta h2 {
+#signup-section h2 {
     font-size: 30px;
+    margin-bottom: 10px;
+}
+
+#signup-section p {
     margin-bottom: 20px;
+}
+
+#signup-form {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+#signup-form input[type="email"] {
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    width: 300px;
+}
+
+.submit-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    background-color: #ff9800;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.submit-button:hover {
+    background-color: #e68900;
 }
 
 /* Footer */
