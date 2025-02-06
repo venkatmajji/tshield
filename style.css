@@ -22,6 +22,13 @@ a {
 }
 
 /* Hero Section */
+/* Logo Styling */
+#logo {
+    width: 25%; /* 1/4th of its original size */
+    max-width: 200px; /* Optional: cap the width on large screens */
+    margin-bottom: 20px;
+}
+
 #hero {
     background-color: #1c3faa;
     color: #fff;
